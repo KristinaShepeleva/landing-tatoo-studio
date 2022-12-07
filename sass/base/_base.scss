@@ -1,0 +1,34 @@
+:root {
+    /* Colors */
+    --primary-text-color: #2B3640;
+    --second-text-color: #6F777D;
+
+    --accent-color: linear-gradient(180deg, #FA897B 0.46%, #FF1F33 100.39%);
+    --accent-button: linear-gradient(90.47deg, #FA897B -12.39%, #FF1F33 65.72%);
+    --whity-color: #ffffff;
+    
+    --background-dark: #1F1F1F;
+    --black: #000000;
+    
+
+    /* BG colors */
+    --background-color: #F1F5F8;
+
+    /* Others */
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration: 250ms;
+
+    /* Fonts */
+    --main-font: "Inter", sans-serif;
+    --secondary-font: "Lora", serif;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--primary-text-color);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
