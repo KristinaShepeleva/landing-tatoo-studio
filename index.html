@@ -10,14 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lora:wght@400;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./scc/normalize.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
+    
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
     <header>
+        <div class="container">
         <a href="">
-            <svg class="logo" width="164" height="46">
+            <svg class="nav__logo logo" width="164" height="46">
               <use href="./img/symbol-defs.svg#logo"></use>
             </svg>
         </a>
@@ -31,37 +34,40 @@
         </nav>
 
         <ul class="nav-social">
+            <li>
             <a href="">
                 <svg class="icon" width="32" height="32">
                     <use href="./img/symbol-defs.svg#icon-facebook"></use>
                 </svg>
-            </a>
-            <a href="">
+            </a></li>
+            <li><a href="">
                 <svg class="icon" width="32" height="32">
                     <use href="./img/symbol-defs.svg#icon-instagram"></use>
                 </svg>
-            </a>
+            </a></li>
 
-            </a>
+            <li></a>
             <a href="">
                 <svg class="icon" width="32" height="32">
                     <use href="./img/symbol-defs.svg#icon-pinterest"></use>
                 </svg>
-            </a>
+            </a></li>
         </ul>
-
+        </div>
     </header>
 
     <main>
         <section class="hero">
-            <h1>Black & Grey</h1>
-            <h2>tattoo studio</h2>
-            <p>Black & Grey Studio is a place where tattoo becomes art and your ideas come to life</p>
-            <button class="btn" type="button">consultation</button>
+            <div class="container">
+            <h2 class="title-second hero__title-second">tattoo studio</h2>
+            <h1 class="hero__title">Black & Grey</h1>
+            <p class="hero__text">Black & Grey Studio is a place where tattoo becomes art and your ideas come to life</p>
+            <button class="btn" type="button">consultation</button></div>
         </section>
 
 
         <section class="about">
+            <div class="container">
             <h2>about Us</h2>
             <p>Now, tattoos have become part of modern fashion and remain constantly in trend. They look different - exciting, cute,
             beautiful, spectacular, and so on. Thousands of people every day, decide to make a unique image.</p>
@@ -74,10 +80,11 @@
             <li><img src="./img/about/about-2.jpg" alt="" width="264"></li>
             <li><img src="./img/about/about-3.jpg" alt="" width="264"></li>
             <li><img src="./img/about/about-4.jpg" alt="" width="264"></li>
-            </ul>
+            </ul></div>
         </section>
 
         <section class="advantages">
+            <div class="container">
             <h2>why are we better than others</h2>
             <ul>
                 <li>
@@ -104,10 +111,11 @@
                     <p>Over 10 years of experience allows you to realize any of your work. Over 10,000 customers recommend our tattoo studio</p>
                 </li>
             </ul>
-
+        </div>
         </section>
 
         <section class="team">
+            <div class="container">
             <h2>our team tattoo masters</h2>
             <p>All our masters are certified professionals with many years of experience.
             </p>
@@ -134,10 +142,11 @@
                     <p>tattoo master</p>
                     <ul></ul>
                 </li>
-            </ul>
+            </ul></div>
         </section>
 
         <section class="portfolio">
+            <div class="container">
             <h2>PORTFOLIO</h2>
             <p>The chosen theme or drawing can be executed in different sizes, different colors and styles</p>
             <ul>
@@ -166,10 +175,11 @@
                 <li><img src="./img/gallary/tattoo-6.jpg" alt=""></li>
                 <li><img src="./img/gallary/tattoo-7.jpg" alt=""></li>
                 <li><img src="./img/gallary/tattoo-8.jpg" alt=""></li>
-            </ul>  
+            </ul></div>
         </section>
 
         <section class="price">
+            <div class="container">
             <img src="./img/price.jpg" alt="">
             <p>How much will my tattoo cost?</p>
             <h2>COMPETITIVE PRICING</h2>
@@ -177,10 +187,11 @@
             Removals cfn be very costly so you want to do it right.</p>
             <p>Tell us your idea and can give you an estimate on how much time and money you’ll need for your custom tattoo.</p>
             <button class="btn" type="button">consultation</button>
-
+            </div>
         </section>
 
         <section class="feedback">
+            <div class="container">
             <p>Do you want a tattoo?</p>
             <form action="">
                 <label for=""><input type="text"></label>
@@ -189,12 +200,13 @@
                 
                 <textarea name="" id="" cols="30" rows="10"></textarea>
                 <button type="submit">Sent</button>
-            </form>
+            </form></div>
         </section>
 
     </main>
 
     <footer>
+        <div class="container">
     <a href="">
         <svg class="logo" width="164" height="46">
             <use href="./img/symbol-defs.svg#logo"></use>
@@ -248,7 +260,7 @@
                     </svg>
                 </a></li>
     </ul>
-
+    </div>
     </footer>
     
 </body>
