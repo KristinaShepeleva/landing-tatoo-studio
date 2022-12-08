@@ -1,0 +1,40 @@
+.about__advantages {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../img/bg1.png);
+}
+
+.title-second--big-padding {
+    padding-bottom: 80px;
+}
+
+.about__content {
+    display: flex;
+    gap: 30px;
+}
+
+.about__text {
+    flex-basis: calc((100%-30px)/2);
+    padding-top: 43px;
+}
+
+.about__p:not(:last-child) {
+    padding-bottom: 32px;
+}
+
+.about__big-img {
+    flex-basis: calc((100%-30px)/2);
+} 
+
+.about .about__list-img {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about__item-img {
+    flex-basis: calc((100%-90px)/4);
+}
