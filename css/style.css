@@ -372,3 +372,63 @@ body {
 .price__btn {
     margin-left: 0;
 }
+
+/* feedback */
+
+.feedback {
+    
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/feedback-bg.jpg);
+}
+
+.section__feedback {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+/* footer */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bg-footer.png);
+    background-color: var(--black);
+}
+
+.footer__container {
+    display: flex;
+    gap: 30px;
+}
+
+.address__list {
+    display: flex;
+    gap: 30px;
+}
+
+.address__item {
+    flex-basis: calc((100%-150px)/5);
+}
+
+.address__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: var(--whity-color);
+}
+
+.address__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--whity-color);
+}
