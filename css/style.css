@@ -46,7 +46,8 @@ a {
     color: currentColor;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -356,14 +357,31 @@ body {
 
 .team__list {
     display: flex;
+    
     gap: 30px;
     align-items: center;
     justify-content: center;
 }
 
+.team__item {
+    overflow: hidden;
+    height: 581px;
+    flex-basis: calc((100% - 60px) / 3);
+}
+
 .team__content {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+   
     padding: 20px 20px;
-    background: url(../img/bg-footer.png) var(--background-dark)
+    background: url(../img/bg-footer.png) var(--background-dark);
+    transform: translateY(0) ;
+    transition: transform ease-in-out 350ms;
+}
+
+.team__content:hover {
+    transform: translateY(-76px);
 }
 
 .team__name {
@@ -386,6 +404,27 @@ body {
     
     color: var(--whity-color);
     margin-bottom: 16px;
+}
+
+.team__text::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    background-color: #FA897B;
+}
+
+.team__text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--whity-color);
+    
 }
 
 .social__list--center {
