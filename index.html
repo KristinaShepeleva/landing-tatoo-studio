@@ -85,7 +85,13 @@
             <p class="about__p">The services of our highly skilled craftsmen are used by many people who have decided to change their appearance for the
             better. The secret of their high-quality activities lies in the talent and vast experience.</p>
             </div>
-            <img class="about__big-img" src="./img/about/about-5.jpg" alt="" width="558">
+            <img class="about__big-img" 
+            srcset="./img/about/about-5.jpg 558w,
+            ./img/about/tablet_1x.jpg 352w,
+            ./img/about/mmob_1x.jpg 450ww"
+            src="./img/about/about-5.jpg" 
+            sizes="(min-width: 1200px) 558px, (min-width: 768px) 352px, (min-width: 480px) 450px, 100vw"
+            alt="make tattoo" loading="lazy">
             </div>
 
             <ul class="about__list-img">
@@ -267,14 +273,14 @@
             </ul>
             
             <ul class="gallary__fotos">
-                <li><img src="./img/gallary/tattoo-1.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-2.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-3.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-4.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-5.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-6.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-7.jpg" alt=""></li>
-                <li><img src="./img/gallary/tattoo-8.jpg" alt=""></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-1.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-2.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-3.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-4.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-5.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-6.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-7.jpg" alt="tattoo"></li>
+                <li class="gallary__img"><img src="./img/gallary/tattoo-8.jpg" alt="tattoo"></li>
             </ul></div>
         </section>
 
